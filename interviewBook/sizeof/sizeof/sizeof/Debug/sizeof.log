@@ -1,0 +1,1419 @@
+﻿  main.cpp
+  
+  class _PMD	size(12):
+  	+---
+   0	| mdisp
+   4	| pdisp
+   8	| vdisp
+  	+---
+  
+  class _TypeDescriptor	size(8):
+  	+---
+   0	| pVFTable
+   4	| spare
+   8	| name
+  	+---
+  
+  class _s__RTTIBaseClassDescriptor2	size(28):
+  	+---
+   0	| pTypeDescriptor
+   4	| numContainedBases
+   8	| _PMD where
+  20	| attributes
+  24	| pClassDescriptor
+  	+---
+  
+  class _s__RTTIClassHierarchyDescriptor	size(16):
+  	+---
+   0	| signature
+   4	| attributes
+   8	| numBaseClasses
+  12	| pBaseClassArray
+  	+---
+  
+  class __s_GUID	size(16):
+  	+---
+   0	| Data1
+   4	| Data2
+   6	| Data3
+   8	| Data4
+  	+---
+  
+  class std::_Is_integral<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Bitwise_hash<char>	size(1):
+  	+---
+  	+---
+  
+  class std::hash<char>	size(1):
+  	+---
+   0	| +--- (base class std::_Bitwise_hash<char>)
+  	| +---
+  	+---
+  
+  class std::is_void<void const volatile >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::alignment_of<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<unsigned int,1>)
+  	| +---
+  	+---
+  
+  class std::_Disjunction<>	size(1):
+  	+---
+  	+---
+  
+  class std::numeric_limits<char>	size(1):
+  	+---
+   0	| +--- (base class std::_Num_int_base)
+   0	| | +--- (base class std::_Num_base)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::char_traits<char>	size(1):
+  	+---
+  	+---
+  
+  class std::_Is_character<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_const<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::allocator<char>	size(1):
+  	+---
+  	+---
+  
+  class std::allocator_traits<class std::allocator<char> >	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_If<0,int,char>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<char const >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_If<0,int const ,char const >	size(1):
+  	+---
+  	+---
+  
+  class std::is_nothrow_constructible<class std::allocator<char> >	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_nothrow_default_constructible<class std::allocator<char> >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Wrap_alloc<class std::allocator<char> >	size(1):
+  	+---
+   0	| +--- (base class std::allocator<char>)
+  	| +---
+  	+---
+  
+  class std::_Wrap_alloc<class std::allocator<char> >::rebind<char>	size(1):
+  	+---
+  	+---
+  
+  class std::is_same<char *,char *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_same<char const *,char const *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_same<char &,char &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_same<char const &,char const &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Is_simple_alloc<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::_If<1,struct std::_Simple_types<char>,struct std::_String_iter_types<char,unsigned int,int,char *,char const *,char &,char const &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_String_base_types<char,class std::allocator<char> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Simple_types<char>	size(1):
+  	+---
+  	+---
+  
+  class std::_String_val<struct std::_Simple_types<char> >	size(28):
+  	+---
+   0	| +--- (base class std::_Container_base12)
+   0	| | _Myproxy
+  	| +---
+   4	| _Bxty _Bx
+  20	| _Mysize
+  24	| _Myres
+  	+---
+  
+  class std::is_empty<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_final<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<0>)
+   0	| | +--- (base class std::integral_constant<bool,0>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::_Compressed_pair<struct std::_Wrap_alloc<class std::allocator<char> >,class std::_String_val<struct std::_Simple_types<char> >,1>	size(28):
+  	+---
+   0	| +--- (base class std::_Wrap_alloc<class std::allocator<char> >)
+   0	| | +--- (base class std::allocator<char>)
+  	| | +---
+  	| +---
+   0	| ?$_String_val@U?$_Simple_types@D@std@@ _Myval2
+  	+---
+  
+  class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > >	size(28):
+  	+---
+   0	| ?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00 _Mypair
+  	+---
+  
+  class std::remove_reference<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_array<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::remove_extent<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::_Is_function<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_function<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Add_pointer<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > >,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_pointer<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_volatile<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_const<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_cv<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::_If<0,class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > *,class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::decay<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_same<class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > >,class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >	size(28):
+  	+---
+   0	| +--- (base class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > >)
+   0	| | ?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00 _Mypair
+  	| +---
+  	+---
+  
+  class std::_Yarn<char>	size(8):
+  	+---
+   0	| _Myptr
+   4	| _Nul
+    	| <alignment member> (size=3)
+  	+---
+  
+  class std::codecvt<char16_t,char,struct _Mbstatet>	size(16):
+  	+---
+   0	| +--- (base class std::codecvt_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+   8	| _Maxcode
+  12	| _Codecvt_mode _Mode
+  	+---
+  
+  std::codecvt<char16_t,char,struct _Mbstatet>::$vftable@:
+  	| &?$codecvt@_SDU_Mbstatet@@_meta
+  	|  0
+   0	| &std::codecvt<char16_t,char,struct _Mbstatet>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_always_noconv 
+   4	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_max_length 
+   5	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_encoding 
+   6	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_in 
+   7	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_out 
+   8	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_unshift 
+   9	| &std::codecvt<char16_t,char,struct _Mbstatet>::do_length 
+  
+  std::codecvt<char16_t,char,struct _Mbstatet>::{dtor} this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_in this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_out this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_unshift this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_length this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_always_noconv this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_max_length this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::do_encoding this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::__delDtor this adjustor: 0
+  std::codecvt<char16_t,char,struct _Mbstatet>::__vecDelDtor this adjustor: 0
+  
+  class std::codecvt<char32_t,char,struct _Mbstatet>	size(16):
+  	+---
+   0	| +--- (base class std::codecvt_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+   8	| _Maxcode
+  12	| _Codecvt_mode _Mode
+  	+---
+  
+  std::codecvt<char32_t,char,struct _Mbstatet>::$vftable@:
+  	| &?$codecvt@_UDU_Mbstatet@@_meta
+  	|  0
+   0	| &std::codecvt<char32_t,char,struct _Mbstatet>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_always_noconv 
+   4	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_max_length 
+   5	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_encoding 
+   6	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_in 
+   7	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_out 
+   8	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_unshift 
+   9	| &std::codecvt<char32_t,char,struct _Mbstatet>::do_length 
+  
+  std::codecvt<char32_t,char,struct _Mbstatet>::{dtor} this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_in this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_out this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_unshift this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_length this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_always_noconv this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_max_length this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::do_encoding this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::__delDtor this adjustor: 0
+  std::codecvt<char32_t,char,struct _Mbstatet>::__vecDelDtor this adjustor: 0
+  
+  class std::codecvt<wchar_t,char,struct _Mbstatet>	size(52):
+  	+---
+   0	| +--- (base class std::codecvt_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+   8	| _Cvtvec _Cvt
+  	+---
+  
+  std::codecvt<wchar_t,char,struct _Mbstatet>::$vftable@:
+  	| &?$codecvt@_WDU_Mbstatet@@_meta
+  	|  0
+   0	| &std::codecvt<wchar_t,char,struct _Mbstatet>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_always_noconv 
+   4	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_max_length 
+   5	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_encoding 
+   6	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_in 
+   7	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_out 
+   8	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_unshift 
+   9	| &std::codecvt<wchar_t,char,struct _Mbstatet>::do_length 
+  
+  std::codecvt<wchar_t,char,struct _Mbstatet>::{dtor} this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_in this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_out this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_unshift this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_length this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_always_noconv this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_max_length this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::do_encoding this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::__delDtor this adjustor: 0
+  std::codecvt<wchar_t,char,struct _Mbstatet>::__vecDelDtor this adjustor: 0
+  
+  class std::codecvt<unsigned short,char,struct _Mbstatet>	size(52):
+  	+---
+   0	| +--- (base class std::codecvt_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+   8	| _Cvtvec _Cvt
+  	+---
+  
+  std::codecvt<unsigned short,char,struct _Mbstatet>::$vftable@:
+  	| &?$codecvt@GDU_Mbstatet@@_meta
+  	|  0
+   0	| &std::codecvt<unsigned short,char,struct _Mbstatet>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_always_noconv 
+   4	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_max_length 
+   5	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_encoding 
+   6	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_in 
+   7	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_out 
+   8	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_unshift 
+   9	| &std::codecvt<unsigned short,char,struct _Mbstatet>::do_length 
+  
+  std::codecvt<unsigned short,char,struct _Mbstatet>::{dtor} this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_in this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_out this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_unshift this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_length this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_always_noconv this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_max_length this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::do_encoding this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::__delDtor this adjustor: 0
+  std::codecvt<unsigned short,char,struct _Mbstatet>::__vecDelDtor this adjustor: 0
+  
+  class std::ctype<char>	size(24):
+  	+---
+   0	| +--- (base class std::ctype_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+   8	| _Ctypevec _Ctype
+  	+---
+  
+  std::ctype<char>::$vftable@:
+  	| &?$ctype@D_meta
+  	|  0
+   0	| &std::ctype<char>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::ctype<char>::do_tolower 
+   4	| &std::ctype<char>::do_tolower 
+   5	| &std::ctype<char>::do_toupper 
+   6	| &std::ctype<char>::do_toupper 
+   7	| &std::ctype<char>::do_widen 
+   8	| &std::ctype<char>::do_widen 
+   9	| &std::ctype<char>::do_narrow 
+  10	| &std::ctype<char>::do_narrow 
+  
+  std::ctype<char>::{dtor} this adjustor: 0
+  std::ctype<char>::do_tolower this adjustor: 0
+  std::ctype<char>::do_tolower this adjustor: 0
+  std::ctype<char>::do_toupper this adjustor: 0
+  std::ctype<char>::do_toupper this adjustor: 0
+  std::ctype<char>::do_widen this adjustor: 0
+  std::ctype<char>::do_widen this adjustor: 0
+  std::ctype<char>::do_narrow this adjustor: 0
+  std::ctype<char>::do_narrow this adjustor: 0
+  std::ctype<char>::__delDtor this adjustor: 0
+  std::ctype<char>::__vecDelDtor this adjustor: 0
+  
+  class std::ctype_byname<char>	size(24):
+  	+---
+   0	| +--- (base class std::ctype<char>)
+   0	| | +--- (base class std::ctype_base)
+   0	| | | +--- (base class std::locale::facet)
+   0	| | | | +--- (base class std::_Facet_base)
+   0	| | | | | {vfptr}
+  	| | | | +---
+   4	| | | | +--- (base class std::_Crt_new_delete)
+  	| | | | +---
+   4	| | | | _Myrefs
+  	| | | +---
+  	| | +---
+   8	| | _Ctypevec _Ctype
+  	| +---
+  	+---
+  
+  std::ctype_byname<char>::$vftable@:
+  	| &?$ctype_byname@D_meta
+  	|  0
+   0	| &std::ctype_byname<char>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::ctype<char>::do_tolower 
+   4	| &std::ctype<char>::do_tolower 
+   5	| &std::ctype<char>::do_toupper 
+   6	| &std::ctype<char>::do_toupper 
+   7	| &std::ctype<char>::do_widen 
+   8	| &std::ctype<char>::do_widen 
+   9	| &std::ctype<char>::do_narrow 
+  10	| &std::ctype<char>::do_narrow 
+  
+  std::ctype_byname<char>::{dtor} this adjustor: 0
+  std::ctype_byname<char>::__delDtor this adjustor: 0
+  std::ctype_byname<char>::__vecDelDtor this adjustor: 0
+  
+  class std::codecvt<char,char,struct _Mbstatet>	size(8):
+  	+---
+   0	| +--- (base class std::codecvt_base)
+   0	| | +--- (base class std::locale::facet)
+   0	| | | +--- (base class std::_Facet_base)
+   0	| | | | {vfptr}
+  	| | | +---
+   4	| | | +--- (base class std::_Crt_new_delete)
+  	| | | +---
+   4	| | | _Myrefs
+  	| | +---
+  	| +---
+  	+---
+  
+  std::codecvt<char,char,struct _Mbstatet>::$vftable@:
+  	| &?$codecvt@DDU_Mbstatet@@_meta
+  	|  0
+   0	| &std::codecvt<char,char,struct _Mbstatet>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::codecvt<char,char,struct _Mbstatet>::do_always_noconv 
+   4	| &std::codecvt_base::do_max_length 
+   5	| &std::codecvt_base::do_encoding 
+   6	| &std::codecvt<char,char,struct _Mbstatet>::do_in 
+   7	| &std::codecvt<char,char,struct _Mbstatet>::do_out 
+   8	| &std::codecvt<char,char,struct _Mbstatet>::do_unshift 
+   9	| &std::codecvt<char,char,struct _Mbstatet>::do_length 
+  
+  std::codecvt<char,char,struct _Mbstatet>::{dtor} this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::do_always_noconv this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::do_in this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::do_out this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::do_unshift this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::do_length this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::__delDtor this adjustor: 0
+  std::codecvt<char,char,struct _Mbstatet>::__vecDelDtor this adjustor: 0
+  
+  class std::initializer_list<char>	size(8):
+  	+---
+   0	| _First
+   4	| _Last
+  	+---
+  
+  class std::basic_streambuf<char,struct std::char_traits<char> >	size(56):
+  	+---
+   0	| {vfptr}
+   4	| _Gfirst
+   8	| _Pfirst
+  12	| _IGfirst
+  16	| _IPfirst
+  20	| _Gnext
+  24	| _Pnext
+  28	| _IGnext
+  32	| _IPnext
+  36	| _Gcount
+  40	| _Pcount
+  44	| _IGcount
+  48	| _IPcount
+  52	| _Plocale
+  	+---
+  
+  std::basic_streambuf<char,struct std::char_traits<char> >::$vftable@:
+  	| &?$basic_streambuf@DU?$char_traits@D@std@@_meta
+  	|  0
+   0	| &std::basic_streambuf<char,struct std::char_traits<char> >::{dtor} 
+   1	| &std::basic_streambuf<char,struct std::char_traits<char> >::_Lock 
+   2	| &std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock 
+   3	| &std::basic_streambuf<char,struct std::char_traits<char> >::overflow 
+   4	| &std::basic_streambuf<char,struct std::char_traits<char> >::pbackfail 
+   5	| &std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc 
+   6	| &std::basic_streambuf<char,struct std::char_traits<char> >::underflow 
+   7	| &std::basic_streambuf<char,struct std::char_traits<char> >::uflow 
+   8	| &std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn 
+   9	| &std::basic_streambuf<char,struct std::char_traits<char> >::xsputn 
+  10	| &std::basic_streambuf<char,struct std::char_traits<char> >::seekoff 
+  11	| &std::basic_streambuf<char,struct std::char_traits<char> >::seekpos 
+  12	| &std::basic_streambuf<char,struct std::char_traits<char> >::setbuf 
+  13	| &std::basic_streambuf<char,struct std::char_traits<char> >::sync 
+  14	| &std::basic_streambuf<char,struct std::char_traits<char> >::imbue 
+  
+  std::basic_streambuf<char,struct std::char_traits<char> >::{dtor} this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::_Lock this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::overflow this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::pbackfail this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::underflow this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::uflow this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::xsputn this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::seekoff this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::seekpos this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::setbuf this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::sync this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::imbue this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::__delDtor this adjustor: 0
+  std::basic_streambuf<char,struct std::char_traits<char> >::__vecDelDtor this adjustor: 0
+  
+  class std::numpunct<char>	size(24):
+  	+---
+   0	| +--- (base class std::locale::facet)
+   0	| | +--- (base class std::_Facet_base)
+   0	| | | {vfptr}
+  	| | +---
+   4	| | +--- (base class std::_Crt_new_delete)
+  	| | +---
+   4	| | _Myrefs
+  	| +---
+   8	| _Grouping
+  12	| _Dp
+  13	| _Kseparator
+    	| <alignment member> (size=2)
+  16	| _Falsename
+  20	| _Truename
+  	+---
+  
+  std::numpunct<char>::$vftable@:
+  	| &?$numpunct@D_meta
+  	|  0
+   0	| &std::numpunct<char>::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::numpunct<char>::do_decimal_point 
+   4	| &std::numpunct<char>::do_thousands_sep 
+   5	| &std::numpunct<char>::do_grouping 
+   6	| &std::numpunct<char>::do_falsename 
+   7	| &std::numpunct<char>::do_truename 
+  
+  std::numpunct<char>::{dtor} this adjustor: 0
+  std::numpunct<char>::do_decimal_point this adjustor: 0
+  std::numpunct<char>::do_thousands_sep this adjustor: 0
+  std::numpunct<char>::do_grouping this adjustor: 0
+  std::numpunct<char>::do_falsename this adjustor: 0
+  std::numpunct<char>::do_truename this adjustor: 0
+  std::numpunct<char>::__delDtor this adjustor: 0
+  std::numpunct<char>::__vecDelDtor this adjustor: 0
+  
+  class std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >	size(8):
+  	+---
+   0	| +--- (base class std::locale::facet)
+   0	| | +--- (base class std::_Facet_base)
+   0	| | | {vfptr}
+  	| | +---
+   4	| | +--- (base class std::_Crt_new_delete)
+  	| | +---
+   4	| | _Myrefs
+  	| +---
+  	+---
+  
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::$vftable@:
+  	| &?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@_meta
+  	|  0
+   0	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   4	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   5	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   6	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   7	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   8	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+   9	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+  10	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+  11	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+  12	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+  13	| &std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get 
+  
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::{dtor} this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::__delDtor this adjustor: 0
+  std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::__vecDelDtor this adjustor: 0
+  
+  class std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >	size(8):
+  	+---
+   0	| +--- (base class std::locale::facet)
+   0	| | +--- (base class std::_Facet_base)
+   0	| | | {vfptr}
+  	| | +---
+   4	| | +--- (base class std::_Crt_new_delete)
+  	| | +---
+   4	| | _Myrefs
+  	| +---
+  	+---
+  
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::$vftable@:
+  	| &?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@_meta
+  	|  0
+   0	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::{dtor} 
+   1	| &std::locale::facet::_Incref 
+   2	| &std::locale::facet::_Decref 
+   3	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   4	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   5	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   6	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   7	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   8	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+   9	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+  10	| &std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put 
+  
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::{dtor} this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::__delDtor this adjustor: 0
+  std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::__vecDelDtor this adjustor: 0
+  
+  class std::basic_ios<char,struct std::char_traits<char> >	size(72):
+  	+---
+   0	| +--- (base class std::ios_base)
+   0	| | {vfptr}
+   8	| | +--- (base class std::_Iosb<int>)
+  	| | +---
+   8	| | _Stdstr
+  12	| | _Mystate
+  16	| | _Except
+  20	| | _Fmtfl
+  24	| | _Prec
+  32	| | _Wide
+  40	| | _Arr
+  44	| | _Calls
+  48	| | _Ploc
+    	| | <alignment member> (size=4)
+  	| +---
+  56	| _Mystrbuf
+  60	| _Tiestr
+  64	| _Fillch
+    	| <alignment member> (size=7)
+  	+---
+  
+  std::basic_ios<char,struct std::char_traits<char> >::$vftable@:
+  	| &?$basic_ios@DU?$char_traits@D@std@@_meta
+  	|  0
+   0	| &std::basic_ios<char,struct std::char_traits<char> >::{dtor} 
+  
+  std::basic_ios<char,struct std::char_traits<char> >::{dtor} this adjustor: 0
+  std::basic_ios<char,struct std::char_traits<char> >::__delDtor this adjustor: 0
+  std::basic_ios<char,struct std::char_traits<char> >::__vecDelDtor this adjustor: 0
+  
+  class std::basic_ostream<char,struct std::char_traits<char> >	size(80):
+  	+---
+   0	| {vbptr}
+  	+---
+  4	| (vtordisp for vbase std::basic_ios<char,struct std::char_traits<char> >)
+  	+--- (virtual base std::basic_ios<char,struct std::char_traits<char> >)
+   8	| +--- (base class std::ios_base)
+   8	| | {vfptr}
+  16	| | +--- (base class std::_Iosb<int>)
+  	| | +---
+  16	| | _Stdstr
+  20	| | _Mystate
+  24	| | _Except
+  28	| | _Fmtfl
+  32	| | _Prec
+  40	| | _Wide
+  48	| | _Arr
+  52	| | _Calls
+  56	| | _Ploc
+    	| | <alignment member> (size=4)
+  	| +---
+  64	| _Mystrbuf
+  68	| _Tiestr
+  72	| _Fillch
+    	| <alignment member> (size=7)
+  	+---
+  
+  std::basic_ostream<char,struct std::char_traits<char> >::$vbtable@:
+   0	| 0
+   1	| 8 (?$basic_ostream@DU?$char_traits@D@std@@d(?$basic_ostream@DU?$char_traits@D@std@@+0)?$basic_ios@DU?$char_traits@D@std@@)
+  
+  std::basic_ostream<char,struct std::char_traits<char> >::$vftable@:
+  	| -8
+   0	| &(vtordisp) std::basic_ostream<char,struct std::char_traits<char> >::{dtor} 
+  
+  std::basic_ostream<char,struct std::char_traits<char> >::{dtor} this adjustor: 8
+  std::basic_ostream<char,struct std::char_traits<char> >::__delDtor this adjustor: 8
+  std::basic_ostream<char,struct std::char_traits<char> >::__vecDelDtor this adjustor: 8
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+  std::basic_ios<char,struct std::char_traits<char> >       8       0       4 1
+  
+  class std::basic_istream<char,struct std::char_traits<char> >	size(96):
+  	+---
+   0	| {vbptr}
+   8	| _Chcount
+    	| <alignment member> (size=4)
+  	+---
+  20	| (vtordisp for vbase std::basic_ios<char,struct std::char_traits<char> >)
+  	+--- (virtual base std::basic_ios<char,struct std::char_traits<char> >)
+  24	| +--- (base class std::ios_base)
+  24	| | {vfptr}
+  32	| | +--- (base class std::_Iosb<int>)
+  	| | +---
+  32	| | _Stdstr
+  36	| | _Mystate
+  40	| | _Except
+  44	| | _Fmtfl
+  48	| | _Prec
+  56	| | _Wide
+  64	| | _Arr
+  68	| | _Calls
+  72	| | _Ploc
+    	| | <alignment member> (size=4)
+  	| +---
+  80	| _Mystrbuf
+  84	| _Tiestr
+  88	| _Fillch
+    	| <alignment member> (size=7)
+  	+---
+  
+  std::basic_istream<char,struct std::char_traits<char> >::$vbtable@:
+   0	| 0
+   1	| 24 (?$basic_istream@DU?$char_traits@D@std@@d(?$basic_istream@DU?$char_traits@D@std@@+0)?$basic_ios@DU?$char_traits@D@std@@)
+  
+  std::basic_istream<char,struct std::char_traits<char> >::$vftable@:
+  	| -24
+   0	| &(vtordisp) std::basic_istream<char,struct std::char_traits<char> >::{dtor} 
+  
+  std::basic_istream<char,struct std::char_traits<char> >::{dtor} this adjustor: 24
+  std::basic_istream<char,struct std::char_traits<char> >::__delDtor this adjustor: 24
+  std::basic_istream<char,struct std::char_traits<char> >::__vecDelDtor this adjustor: 24
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+  std::basic_ios<char,struct std::char_traits<char> >      24       0       4 1
+  
+  class std::basic_iostream<char,struct std::char_traits<char> >	size(104):
+  	+---
+   0	| +--- (base class std::basic_istream<char,struct std::char_traits<char> >)
+   0	| | {vbptr}
+   8	| | _Chcount
+    	| | <alignment member> (size=4)
+  	| +---
+  16	| +--- (base class std::basic_ostream<char,struct std::char_traits<char> >)
+  16	| | {vbptr}
+  	| +---
+    	| <alignment member> (size=4)
+    	| <alignment member> (size=4)
+  	+---
+  28	| (vtordisp for vbase std::basic_ios<char,struct std::char_traits<char> >)
+  	+--- (virtual base std::basic_ios<char,struct std::char_traits<char> >)
+  32	| +--- (base class std::ios_base)
+  32	| | {vfptr}
+  40	| | +--- (base class std::_Iosb<int>)
+  	| | +---
+  40	| | _Stdstr
+  44	| | _Mystate
+  48	| | _Except
+  52	| | _Fmtfl
+  56	| | _Prec
+  64	| | _Wide
+  72	| | _Arr
+  76	| | _Calls
+  80	| | _Ploc
+    	| | <alignment member> (size=4)
+  	| +---
+  88	| _Mystrbuf
+  92	| _Tiestr
+  96	| _Fillch
+    	| <alignment member> (size=7)
+  	+---
+  
+  std::basic_iostream<char,struct std::char_traits<char> >::$vbtable@?$basic_istream@DU?$char_traits@D@std@@@:
+   0	| 0
+   1	| 32 (?$basic_iostream@DU?$char_traits@D@std@@d(?$basic_istream@DU?$char_traits@D@std@@+0)?$basic_ios@DU?$char_traits@D@std@@)
+  
+  std::basic_iostream<char,struct std::char_traits<char> >::$vbtable@?$basic_ostream@DU?$char_traits@D@std@@@:
+   0	| 0
+   1	| 16 (?$basic_iostream@DU?$char_traits@D@std@@d(?$basic_ostream@DU?$char_traits@D@std@@+0)?$basic_ios@DU?$char_traits@D@std@@)
+  
+  std::basic_iostream<char,struct std::char_traits<char> >::$vftable@:
+  	| -32
+   0	| &(vtordisp) std::basic_iostream<char,struct std::char_traits<char> >::{dtor} 
+  
+  std::basic_iostream<char,struct std::char_traits<char> >::{dtor} this adjustor: 32
+  std::basic_iostream<char,struct std::char_traits<char> >::__delDtor this adjustor: 32
+  std::basic_iostream<char,struct std::char_traits<char> >::__vecDelDtor this adjustor: 32
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+  std::basic_ios<char,struct std::char_traits<char> >      32       0       4 1
+  
+  class std::is_error_code_enum<char const *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::is_same<char,char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Iterator012<struct std::random_access_iterator_tag,char,int,char const *,char const &,struct std::_Iterator_base12>	size(8):
+  	+---
+   0	| +--- (base class std::_Iterator_base12)
+   0	| | _Myproxy
+   4	| | _Mynextiter
+  	| +---
+  	+---
+  
+  class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >	size(12):
+  	+---
+   0	| +--- (base class std::_Iterator012<struct std::random_access_iterator_tag,char,int,char const *,char const &,struct std::_Iterator_base12>)
+   0	| | +--- (base class std::_Iterator_base12)
+   0	| | | _Myproxy
+   4	| | | _Mynextiter
+  	| | +---
+  	| +---
+   8	| _Ptr
+  	+---
+  
+  class std::remove_reference<struct std::_Wrap_alloc<class std::allocator<char> > &>	size(1):
+  	+---
+  	+---
+  
+  class std::remove_reference<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_array<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::remove_extent<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::_Is_function<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_function<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Add_pointer<struct std::_Wrap_alloc<class std::allocator<char> >,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_pointer<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_volatile<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_const<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_cv<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::_If<0,struct std::_Wrap_alloc<class std::allocator<char> > *,struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::decay<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::is_same<struct std::_Wrap_alloc<class std::allocator<char> >,class std::_String_alloc<struct std::_String_base_types<char,class std::allocator<char> > > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::remove_reference<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >	size(1):
+  	+---
+  	+---
+  
+  class std::ostreambuf_iterator<char,struct std::char_traits<char> >	size(8):
+  	+---
+   0	| +--- (base class std::iterator<struct std::output_iterator_tag,void,void,void,void>)
+  	| +---
+   0	| _Failed
+    	| <alignment member> (size=3)
+   4	| _Strbuf
+  	+---
+  
+  class std::iterator<struct std::input_iterator_tag,char,__int64,char const *,char>	size(1):
+  	+---
+  	+---
+  
+  class std::istreambuf_iterator<char,struct std::char_traits<char> >	size(8):
+  	+---
+   0	| +--- (base class std::iterator<struct std::input_iterator_tag,char,__int64,char const *,char>)
+  	| +---
+   0	| _Strbuf
+   4	| _Got
+   5	| _Val
+    	| <alignment member> (size=2)
+  	+---
+  
+  class std::is_error_condition_enum<class std::istreambuf_iterator<char,struct std::char_traits<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::is_error_code_enum<class std::istreambuf_iterator<char,struct std::char_traits<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::is_error_condition_enum<class std::allocator<char> >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::is_error_code_enum<class std::allocator<char> >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Is_function<char *>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<char *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<char *,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_lvalue_reference<char *>	size(1):
+  	+---
+  	+---
+  
+  class std::_Is_function<char * &>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<char * &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<char * &,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_rvalue_reference<char * &>	size(1):
+  	+---
+  	+---
+  
+  class std::add_rvalue_reference<char *>	size(1):
+  	+---
+  	+---
+  
+  class std::is_nothrow_constructible<char *,char * &&>	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_nothrow_move_constructible<char *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_nothrow_assignable<char * &,char * &&>	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_nothrow_move_assignable<char *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Swappable_with_helper<char * &,char * &,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swappable_with_helper<char * &,char * &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Choose_conjunction<1,struct std::_Swappable_with_helper<char * &,char * &,void>,struct std::_Swappable_with_helper<char * &,char * &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swappable_with_helper<char * &,char * &,void>,struct std::_Swappable_with_helper<char * &,char * &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::conjunction<struct std::_Swappable_with_helper<char * &,char * &,void>,struct std::_Swappable_with_helper<char * &,char * &,void> >	size(1):
+  	+---
+   0	| +--- (base class std::_Swappable_with_helper<char * &,char * &,void>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::_Is_swappable_with<char * &,char * &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swap_cannot_throw<char * &,char * &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Choose_conjunction<1,struct std::_Is_swappable_with<char * &,char * &>,struct std::_Swap_cannot_throw<char * &,char * &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Conjunction<struct std::_Is_swappable_with<char * &,char * &>,struct std::_Swap_cannot_throw<char * &,char * &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Swap_cannot_throw<char * &,char * &>	size(1):
+  	+---
+  	+---
+  
+  class std::conjunction<struct std::_Is_swappable_with<char * &,char * &>,struct std::_Swap_cannot_throw<char * &,char * &> >	size(1):
+  	+---
+   0	| +--- (base class std::_Swap_cannot_throw<char * &,char * &>)
+  	| +---
+  	+---
+  
+  class std::_Is_nothrow_swappable_with<char * &,char * &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Is_nothrow_swappable<char *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Is_function<char>	size(1):
+  	+---
+  	+---
+  
+  class std::_Add_reference<char,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_lvalue_reference<char>	size(1):
+  	+---
+  	+---
+  
+  class std::_Is_function<char &>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<char &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<char &,0>	size(1):
+  	+---
+  	+---
+  
+  class std::add_rvalue_reference<char &>	size(1):
+  	+---
+  	+---
+  
+  class std::add_rvalue_reference<char>	size(1):
+  	+---
+  	+---
+  
+  class std::is_nothrow_constructible<char,char &&>	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_nothrow_move_constructible<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_nothrow_assignable<char &,char &&>	size(1):
+  	+---
+   0	| +--- (base class std::_Cat_base<1>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::is_nothrow_move_assignable<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Swappable_with_helper<char &,char &,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swappable_with_helper<char &,char &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Choose_conjunction<1,struct std::_Swappable_with_helper<char &,char &,void>,struct std::_Swappable_with_helper<char &,char &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swappable_with_helper<char &,char &,void>,struct std::_Swappable_with_helper<char &,char &,void> >	size(1):
+  	+---
+  	+---
+  
+  class std::conjunction<struct std::_Swappable_with_helper<char &,char &,void>,struct std::_Swappable_with_helper<char &,char &,void> >	size(1):
+  	+---
+   0	| +--- (base class std::_Swappable_with_helper<char &,char &,void>)
+   0	| | +--- (base class std::integral_constant<bool,1>)
+  	| | +---
+  	| +---
+  	+---
+  
+  class std::_Is_swappable_with<char &,char &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Is_swappable<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Conjunction<struct std::_Swap_cannot_throw<char &,char &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Choose_conjunction<1,struct std::_Is_swappable_with<char &,char &>,struct std::_Swap_cannot_throw<char &,char &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Conjunction<struct std::_Is_swappable_with<char &,char &>,struct std::_Swap_cannot_throw<char &,char &> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Swap_cannot_throw<char &,char &>	size(1):
+  	+---
+  	+---
+  
+  class std::conjunction<struct std::_Is_swappable_with<char &,char &>,struct std::_Swap_cannot_throw<char &,char &> >	size(1):
+  	+---
+   0	| +--- (base class std::_Swap_cannot_throw<char &,char &>)
+  	| +---
+  	+---
+  
+  class std::_Is_nothrow_swappable_with<char &,char &>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Is_nothrow_swappable<char>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::is_error_condition_enum<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::is_error_code_enum<struct std::_Wrap_alloc<class std::allocator<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class std::_If<0,char &,struct std::_Container_proxy &>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<char const * const>	size(1):
+  	+---
+  	+---
+  
+  class std::iterator_traits<char const *>	size(1):
+  	+---
+  	+---
+  
+  class std::iterator_traits<char *>	size(1):
+  	+---
+  	+---
+  
+  class std::_Facetptr<class std::ctype<char> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Aligned<8,4,char,0>	size(1):
+  	+---
+  	+---
+  
+  class std::_Facetptr<class std::numpunct<char> >	size(1):
+  	+---
+  	+---
+  
+  class std::_Param_tester<struct std::input_iterator_tag,char,__int64,char const *,char>	size(1):
+  	+---
+  	+---
+  
+  class std::_Iterator_traits_base<class std::istreambuf_iterator<char,struct std::char_traits<char> >,void>	size(1):
+  	+---
+  	+---
+  
+  class std::iterator_traits<class std::istreambuf_iterator<char,struct std::char_traits<char> > >	size(1):
+  	+---
+   0	| +--- (base class std::_Iterator_traits_base<class std::istreambuf_iterator<char,struct std::char_traits<char> >,void>)
+  	| +---
+  	+---
+  
+  class std::_Facetptr<class std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > > >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_reference<class std::allocator<char> >	size(1):
+  	+---
+  	+---
+  
+  class std::remove_reference<char * &>	size(1):
+  	+---
+  	+---
+  
+  class std::remove_reference<char &>	size(1):
+  	+---
+  	+---
+  sizeof.vcxproj -> H:\c++\interview\interviewBook\sizeof\sizeof\Debug\sizeof.exe
+  sizeof.vcxproj -> H:\c++\interview\interviewBook\sizeof\sizeof\Debug\sizeof.pdb (Full PDB)
