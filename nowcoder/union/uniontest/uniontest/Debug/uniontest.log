@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  uniontest.cpp
+h:\c++\interview\nowcoder\union\uniontest\uniontest\uniontest.cpp(16): warning C4305: “=”: 从“int”到“char”截断
+h:\c++\interview\nowcoder\union\uniontest\uniontest\uniontest.cpp(16): warning C4309: “=”: 截断常量值
+h:\c++\interview\nowcoder\union\uniontest\uniontest\uniontest.cpp(17): warning C4309: “=”: 截断常量值
+h:\c++\interview\nowcoder\union\uniontest\uniontest\uniontest.cpp(18): warning C4309: “=”: 截断常量值
+h:\c++\interview\nowcoder\union\uniontest\uniontest\uniontest.cpp(19): warning C4309: “=”: 截断常量值
+  uniontest.vcxproj -> H:\c++\interview\nowcoder\union\uniontest\Debug\uniontest.exe
+  uniontest.vcxproj -> H:\c++\interview\nowcoder\union\uniontest\Debug\uniontest.pdb (Full PDB)

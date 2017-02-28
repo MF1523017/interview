@@ -1,0 +1,4 @@
+﻿  printN.cpp
+h:\c++\interview\nowcoder\printn\printn\printn\printn.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+  printN.vcxproj -> H:\c++\interview\nowcoder\printN\printN\Debug\printN.exe
+  printN.vcxproj -> H:\c++\interview\nowcoder\printN\printN\Debug\printN.pdb (Full PDB)

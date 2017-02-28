@@ -1,0 +1,6 @@
+﻿  constPointer.cpp
+h:\c++\interview\nowcoder\const&pointer\constpointer\constpointer\constpointer.cpp(26): warning C4129: “9”: 不可识别的字符转义序列
+h:\c++\interview\nowcoder\const&pointer\constpointer\constpointer\constpointer.cpp(26): warning C4305: “初始化”: 从“int”到“char”截断
+h:\c++\interview\nowcoder\const&pointer\constpointer\constpointer\constpointer.cpp(26): warning C4309: “初始化”: 截断常量值
+  constPointer.vcxproj -> H:\c++\interview\nowcoder\const&pointer\constPointer\Debug\constPointer.exe
+  constPointer.vcxproj -> H:\c++\interview\nowcoder\const&pointer\constPointer\Debug\constPointer.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  constConstructor.cpp
+h:\c++\interview\nowcoder\constconstructor\constconstructor\constconstructor\constconstructor.cpp(31): error C3861: “f1”: 找不到标识符
+h:\c++\interview\nowcoder\constconstructor\constconstructor\constconstructor\constconstructor.cpp(31): error C2672: “f1”: 未找到匹配的重载函数
