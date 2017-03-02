@@ -1,0 +1,5 @@
+﻿  21-29.cpp
+h:\c++\interview\nowcoder\20170302test\21-29\21-29\21-29.cpp(24): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  h:\c++\interview\nowcoder\20170302test\21-29\21-29\21-29.cpp(24): note: 默认构造函数或 copy/move 赋值运算符将忽略此成员
+  21-29.vcxproj -> H:\c++\interview\nowcoder\20170302test\21-29\Debug\21-29.exe
+  21-29.vcxproj -> H:\c++\interview\nowcoder\20170302test\21-29\Debug\21-29.pdb (Full PDB)
