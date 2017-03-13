@@ -1,0 +1,4 @@
+﻿  PrintMinNumber.cpp
+h:\c++\interview\nowcoder\printminnumber\printminnumber\printminnumber\printminnumber.cpp(33): warning C4552: “*”: 运算符不起任何作用；应输入带副作用的运算符
+  PrintMinNumber.vcxproj -> H:\c++\interview\nowcoder\PrintMinNumber\PrintMinNumber\Debug\PrintMinNumber.exe
+  PrintMinNumber.vcxproj -> H:\c++\interview\nowcoder\PrintMinNumber\PrintMinNumber\Debug\PrintMinNumber.pdb (Full PDB)

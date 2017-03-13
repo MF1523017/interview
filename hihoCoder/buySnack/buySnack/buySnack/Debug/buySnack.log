@@ -1,0 +1,6 @@
+﻿  buySnack.cpp
+h:\c++\interview\hihocoder\buysnack\buysnack\buysnack\buysnack.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+h:\c++\interview\hihocoder\buysnack\buysnack\buysnack\buysnack.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+h:\c++\interview\hihocoder\buysnack\buysnack\buysnack\buysnack.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+  buySnack.vcxproj -> H:\c++\interview\hihoCoder\buySnack\buySnack\Debug\buySnack.exe
+  buySnack.vcxproj -> H:\c++\interview\hihoCoder\buySnack\buySnack\Debug\buySnack.pdb (Full PDB)

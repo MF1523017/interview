@@ -1,0 +1,5 @@
+﻿  huawei_test1.cpp
+h:\c++\interview\20170310huawei\20170310huawei_test\huawei_test1\huawei_test1\huawei_test1.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+h:\c++\interview\20170310huawei\20170310huawei_test\huawei_test1\huawei_test1\huawei_test1.cpp(56): warning C4018: “<”: 有符号/无符号不匹配
+  huawei_test1.vcxproj -> H:\c++\interview\20170310huawei\20170310huawei_test\huawei_test1\Debug\huawei_test1.exe
+  huawei_test1.vcxproj -> H:\c++\interview\20170310huawei\20170310huawei_test\huawei_test1\Debug\huawei_test1.pdb (Full PDB)
