@@ -1,0 +1,5 @@
+﻿  firstNotRepeatingChar.cpp
+h:\c++\interview\nowcoder\firstnotrepeatingchar\firstnotrepeatingchar\firstnotrepeatingchar\firstnotrepeatingchar.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+h:\c++\interview\nowcoder\firstnotrepeatingchar\firstnotrepeatingchar\firstnotrepeatingchar\firstnotrepeatingchar.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+  firstNotRepeatingChar.vcxproj -> H:\c++\interview\nowcoder\firstNotRepeatingChar\firstNotRepeatingChar\Debug\firstNotRepeatingChar.exe
+  firstNotRepeatingChar.vcxproj -> H:\c++\interview\nowcoder\firstNotRepeatingChar\firstNotRepeatingChar\Debug\firstNotRepeatingChar.pdb (Full PDB)
