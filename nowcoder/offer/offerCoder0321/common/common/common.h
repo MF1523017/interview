@@ -3,22 +3,16 @@
 #include<vector>
 #include<string>
 #include<sstream>
+#include<algorithm>
 using std::vector;
 using std::string;
 using std::istringstream;
-
+using std::replace;
 //字符串被分解成int数组
 vector<int> split(string &s, char flag=' ')
 {
 	vector<int> res;
-	if (' ' != flag)
-	{
-		for (int i = 0; i < s.size(); ++i)
-		{
-			if (flag == s[i])
-				s[i] = ' ';
-		}
-	}
+	replace(s.begin(), s.end(), flag, ' ');
 	int n;
 	istringstream tmp(s);
 	while (!tmp.eof())
@@ -104,9 +98,10 @@ int binary_search(const vector<int> &nums, int x)
 	}
 	return INT_MIN;
 }
+#if 0
 void testSolution()
 {
-#if 0//split test
+#if 1//split test
 	string test;
 	std::getline(std::cin,test);
 	print(split(test));
@@ -129,9 +124,10 @@ void testSolution()
 	std::cout << pow(3, 102) << std::endl;
 #endif
 
-#if 1//test binary_search
+#if 0//test binary_search
 	vector<int> nums({ 1,2,3,4,5,6,7 });
 	std::cout << binary_search(nums, 5)<<std::endl;
 
 #endif
 }
+#endif

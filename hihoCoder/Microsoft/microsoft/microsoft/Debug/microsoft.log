@@ -1,0 +1,4 @@
+﻿  microsoft.cpp
+h:\c++\interview\hihocoder\microsoft\microsoft\microsoft\microsoft.cpp(37): warning C4244: “=”: 从“double”转换到“short”，可能丢失数据
+  microsoft.vcxproj -> H:\c++\interview\hihoCoder\Microsoft\microsoft\Debug\microsoft.exe
+  microsoft.vcxproj -> H:\c++\interview\hihoCoder\Microsoft\microsoft\Debug\microsoft.pdb (Partial PDB)

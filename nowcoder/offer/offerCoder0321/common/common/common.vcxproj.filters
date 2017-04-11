@@ -27,12 +27,36 @@
     <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="easenet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="perfect_world.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tou_tiao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jing_dong.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="offers_hihocoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ctrip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
