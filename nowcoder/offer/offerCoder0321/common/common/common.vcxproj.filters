@@ -48,6 +48,18 @@
     <ClInclude Include="ctrip.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="paypal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hua_wei.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alibaba.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="didi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

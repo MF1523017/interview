@@ -4,7 +4,164 @@
 #include<string>
 #include<algorithm>
 #include<fstream>
+#include<vector>
+#include<unordered_map>
+
 using namespace std;
+#if 0
+void testSolution()
+{
+	unordered_map<int, int> t;
+	
+	int n;
+	ifstream cin("test2.txt");
+	cin >> n;
+	vector<bool> visited(n + 1, false);
+	vector<pair<int, int>> nodes(n + 1);
+	vector<int>res;
+	for (int i = 1; i <= n; ++i)
+	{
+		int father, son;
+		cin >> father >> son;
+		if (1==son||(visited[father] && visited[son]))
+			res.push_back(i);
+		nodes[i] = make_pair(father, son);
+		visited[father] = true;
+		visited[son] = true;
+	}
+	int size = res.size();
+	for (int i = 1; i <= n; ++i)
+	{
+		for (int j = 0; j < size; ++j)
+		{
+			int index = res[j];
+
+			if ((i!=index)&&(nodes[i].first == nodes[index].first)&&(nodes[i].second == nodes[index].second))
+				res.push_back(i);
+		}
+	}
+	sort(res.begin(), res.end());
+	for (int i = 0; i < res.size(); ++i)
+		cout << res[i] << " ";
+	cout << endl;
+}
+#endif
+#if 0
+struct point
+{
+	int _x;
+	int _y;
+	point() = default;
+	point(int x, int y) :_x(x), _y(y) {}
+	int dis_2(int cx, int cy) {
+		return (_x - cx)*(_x - cx) + (_y - cy)*(_y - cy);
+	}
+};
+int find_max(vector<int> data)
+{
+	int max_v = data[0];
+	int max_index = 0;
+	for (int i = 0; i<data.size(); ++i)
+	{
+		if (max_v<data[i])
+		{
+			max_v = data[i];
+			max_index = i;
+		}
+	}
+	return max_index;
+
+}
+void testSolution()
+{
+	int n, r;
+	ifstream cin("test2.txt");
+	cin >> n >> r;
+	int min_x = 100000000;
+	int min_y = 100000000;
+	int max_x = 0;
+	int max_y = 0;
+	point *p = new point[n];
+	int res = 0;
+	for (int i = 0; i<n; ++i)
+	{
+		cin >> p[i]._x >> p[i]._y;
+		min_x = min(p[i]._x, min_x);
+		max_x = max(p[i]._x, max_x);
+		min_y = min(p[i]._y, min_y);
+		max_y = max(p[i]._y, max_y);
+	}
+	vector<int> x_h(max_x - min_x+1, 0);
+	vector<int> y_h(max_y - min_y+1, 0);
+	for (int i = 0; i<n; ++i)
+	{
+		int x = p[i]._x;
+		int y = p[i]._y;
+		++x_h[x - min_x];
+		++y_h[y - min_y];
+	}
+	int max_index_x = find_max(x_h) + min_x;
+	int max_index_y = find_max(y_h) + min_y;
+	int start_x = max(max_index_x-r, 0);
+	int start_y = max(max_index_y - r, 0);
+	int end_x = min(max_index_x+r, max_x);
+	int end_y = min(max_index_y + r, max_y);
+	//for(int i=start;i<=end;++i)
+
+	for (int i = start_x; i <= end_x; ++i)
+	{
+		for (int j = start_y; j <= end_y; ++j)
+		{
+			int tmp_res = 0;
+			for (int s = 0; s<n; ++s)
+			{
+				if (p[s].dis_2(i, j)<=r*r)
+					++tmp_res;
+			}
+			res = max(res, tmp_res);
+		}
+
+	}
+	cout << res << endl;
+	
+}
+#endif
+
+#if 0
+
+void testSolution()
+{
+		int n;
+		int res = 0;
+		cin >> n;
+		vector<int>a(n, 0);
+		for (int i = 0; i<n; ++i)
+			cin >> a[i];
+#if 0
+		for (int i = 0; i<n; ++i)
+		{
+			for (int j = i + 1; j<n; ++j)
+			{
+				for (int p = 0; p<n; ++p)
+				{
+					for (int q = p + 1; q<n; ++q)
+					{
+
+						if (i == p || i == q || j == p || j == q)
+							continue;
+						else
+						{
+							if (a[i] + a[j] == a[p] + a[q])
+								++res;
+						}
+					}
+				}
+			}
+		}
+#endif 
+		cout << res << endl;
+}
+#endif
 #if 0
 string snake_to_camel(string &s)
 {

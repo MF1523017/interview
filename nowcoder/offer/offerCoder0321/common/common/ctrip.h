@@ -114,6 +114,8 @@ void testSolution()
 }
 
 #endif
+
+#if 0
 /**
 * 遍历最短路径长度
 *
@@ -205,3 +207,5 @@ void testSolution()
 	func(graph, combine, tmpres, 0, n);
 	cout <<compute(graph,combine) << endl;
 }
+
+#endif

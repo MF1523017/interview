@@ -4,10 +4,70 @@
 #include<string>
 #include<sstream>
 #include<algorithm>
-using std::vector;
-using std::string;
-using std::istringstream;
-using std::replace;
+using namespace std;
+//lcs算法，最长公共子序列 
+//我们假设有两个序列，a1,a2
+//dp[i][j]代表到达a1的第i个数字时，a2的第j个数字时的公共子序列的长度
+
+enum ori
+{
+	left_up=0,
+	up,
+	left
+};
+void print_lcs(vector<vector<int>>&b, vector<int>&a1, int i, int j)
+{
+	if (i == 0 || j == 0)return;
+	if (b[i][j] == left_up) {
+		print_lcs(b, a1, i - 1, j - 1);
+		cout << a1[i-1] << " ";
+	}
+	else if (b[i][j] == up)
+		print_lcs(b, a1, i - 1, j);
+	else
+		print_lcs(b, a1, i, j - 1);
+}
+int lcs(vector<int>&a1, vector<int>&a2)
+{
+	int size1 = a1.size();
+	int size2 = a2.size();
+	vector<vector<int>>dp(size1+1, vector<int>(size2+1, 0));
+	vector<vector<int>>b(size1 + 1, vector<int>(size2 + 1, -1));
+	for (int i = 1; i <= size1; ++i)
+	{
+		for (int j = 1; j <= size2; ++j)
+		{
+				if (a1[i-1] == a2[j-1])
+				{
+					dp[i][j] = dp[i - 1][j - 1] + 1;
+					b[i][j] = left_up;
+				}
+				else
+				{
+					if (dp[i - 1][j] >= dp[i][j - 1])
+					{
+						dp[i][j] = dp[i - 1][j];
+						b[i][j] = up;
+					}
+					else
+					{
+						dp[i][j] = dp[i][j - 1];
+						b[i][j] = ori::left;
+					}
+				}
+		}
+	}
+	print_lcs(b, a1, size1, size2);
+	cout << endl;
+	return dp[size1][size2];
+}
+
+void testSolution()
+{
+	vector<int>a1({ 1,2,4,6 });
+	vector<int>a2({ 1,2,4,5 });
+	cout << lcs(a1, a2) << endl;
+}
 //字符串被分解成int数组
 vector<int> split(string &s, char flag=' ')
 {
